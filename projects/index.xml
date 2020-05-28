@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yuanbo Han</title>
+    <link>https://ybhan.github.io/projects/</link>
+    <description>Recent content in Projects on Yuanbo Han</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ybhan.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bear Maps</title>
+      <link>https://ybhan.github.io/projects/bearmaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/bearmaps/</guid>
+      <description>This is a fast and interactive map web app for Berkeley, CA. Features include rastering, labeling, auto-completion and navigation.
+ Location nodes are stored in a K-D Tree to quickly find their nearest street point. Auto-completion of the search field is supported by a prefix Trie of all the location names. Navigation depends on A* search using a binary Heap as Priority Queue. Route directions are computed from relative bearing based on haversine distance.</description>
+    </item>
+    
+    <item>
+      <title>Smart Brain</title>
+      <link>https://ybhan.github.io/projects/smart-brain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/smart-brain/</guid>
+      <description>This is a responsive Node.js web app for detecting human faces in pictures. Sticking with ES6, the front end is built with React.js, and the back end is supported by Express.js. Clarifai API powers the functionality of face detection. There is also a login system to track the number of picture entries per user through PostgreSQL. And bcrypt hashing secures the password entered. Deployed on Heroku.</description>
+    </item>
+    
+    <item>
+      <title>Panoramic Photo Generation</title>
+      <link>https://ybhan.github.io/projects/panoramic-gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/panoramic-gen/</guid>
+      <description>Use Python and OpenCV to generate a cylindrical panoramic image from an all-around video. Techniques include:
+ Key frame selection SIFT (Scale Invariant Feature Transform) Matching RANSAC (Random Sample Consens) Cylindrical Projection Image Blending (Linear, Laplacian) Image Cropping  The project report written by LaTeX is available here.</description>
+    </item>
+    
+    <item>
+      <title>Mushroom Edibility Rules</title>
+      <link>https://ybhan.github.io/projects/mushroom-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/mushroom-rules/</guid>
+      <description>Apply both Neural Networks and Genetic Algorithms to extract logical rules for mushroom edibility. Firstly use NumPy and Pandas to assign continuous variables into discrete one-hot representation. The Neural Network is implemented by PyTorch. It involves an auxiliary cost function term to force weights to approach ±1 or 0, so the network can be interpreted as a tree-like logic graph. For the second approach, GA cooperates with Decision Tree, where the accuracy of Decision Tree built by GA selected features serves back as the GA fitness function.</description>
+    </item>
+    
+    <item>
+      <title>Musical Instrument Recognition</title>
+      <link>https://ybhan.github.io/projects/musical-recog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/musical-recog/</guid>
+      <description>A musical instrument recognition model for isolated notes and solo phrases. First, Use MATLAB to extract acoustic features by Gammatone filtering. Then perform Voice Activity Detection to separate notes in solo phrases. Finally, Use PyTorch to build a 2-level CNN classifier based on Hornbostel–Sachs system. The .mat files MATLAB produces are further read by Python with the help of SciPy, which accomplishes the interface between two programming languages.</description>
+    </item>
+    
+    <item>
+      <title>Card Game</title>
+      <link>https://ybhan.github.io/projects/card-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/card-game/</guid>
+      <description>An HTML rougelike card game implemented entirely by JavaScript (ES6) using Phaser 3. The Press Start 2P Font is obtained by Bitmap Font Generator. Images come from Open Game Art. And card bases are designed on Figma. Deployed by GitHub Pages.</description>
+    </item>
+    
+  </channel>
+</rss>

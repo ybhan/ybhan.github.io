@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web App on Yuanbo Han</title>
+    <link>https://ybhan.github.io/tags/web-app/</link>
+    <description>Recent content in Web App on Yuanbo Han</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ybhan.github.io/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bear Maps</title>
+      <link>https://ybhan.github.io/projects/bearmaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/bearmaps/</guid>
+      <description>This is a fast and interactive map web app for Berkeley, CA. Features include rastering, labeling, auto-completion and navigation.
+ Location nodes are stored in a K-D Tree to quickly find their nearest street point. Auto-completion of the search field is supported by a prefix Trie of all the location names. Navigation depends on A* search using a binary Heap as Priority Queue. Route directions are computed from relative bearing based on haversine distance.</description>
+    </item>
+    
+    <item>
+      <title>Smart Brain</title>
+      <link>https://ybhan.github.io/projects/smart-brain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/smart-brain/</guid>
+      <description>This is a responsive Node.js web app for detecting human faces in pictures. Sticking with ES6, the front end is built with React.js, and the back end is supported by Express.js. Clarifai API powers the functionality of face detection. There is also a login system to track the number of picture entries per user through PostgreSQL. And bcrypt hashing secures the password entered. Deployed on Heroku.</description>
+    </item>
+    
+    <item>
+      <title>Card Game</title>
+      <link>https://ybhan.github.io/projects/card-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/card-game/</guid>
+      <description>An HTML rougelike card game implemented entirely by JavaScript (ES6) using Phaser 3. The Press Start 2P Font is obtained by Bitmap Font Generator. Images come from Open Game Art. And card bases are designed on Figma. Deployed by GitHub Pages.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV on Yuanbo Han</title>
+    <link>https://ybhan.github.io/tags/opencv/</link>
+    <description>Recent content in OpenCV on Yuanbo Han</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ybhan.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Panoramic Photo Generation</title>
+      <link>https://ybhan.github.io/projects/panoramic-gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ybhan.github.io/projects/panoramic-gen/</guid>
+      <description>Use Python and OpenCV to generate a cylindrical panoramic image from an all-around video. Techniques include:
+ Key frame selection SIFT (Scale Invariant Feature Transform) Matching RANSAC (Random Sample Consens) Cylindrical Projection Image Blending (Linear, Laplacian) Image Cropping  The project report written by LaTeX is available here.</description>
+    </item>
+    
+  </channel>
+</rss>

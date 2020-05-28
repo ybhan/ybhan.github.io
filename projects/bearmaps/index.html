@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Yuanbo Han | Bear Maps</title>
+  <link rel="icon" href="/bot-24.png">
+  <meta property="og:title" content="Yuanbo Han | Bear Maps">
+  <meta property="og:image" content="https://ybhan.github.io/img/me.jpeg">
+  <meta name="description" content="Map app with rastering, labeling, auto-completion and navigation. Implement Heap, Trie, K-D Tree, A* search in Java. Object-oriented programming. Test with JUnit. Built by Maven.">
+  <meta property="og:description" content="Map app with rastering, labeling, auto-completion and navigation. Implement Heap, Trie, K-D Tree, A* search in Java. Object-oriented programming. Test with JUnit. Built by Maven.">
+  <meta name="author" content="Yuanbo Han">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Saira+Extra+Condensed:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Saira+Extra+Condensed:wght@400;500;600;700&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <meta name="generator" content="Hugo 0.71.0" />
+  
+   
+  
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Yuanbo Han</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/me.jpeg" alt="Selfie">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href=" /#about ">About</a>
+      </li>
+      
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href=" /#education ">Education</a>
+        </li>
+      
+      
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href=" /#skills ">Skills</a>
+        </li>
+      
+      
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href=" /#projects ">Projects</a>
+        </li>
+      
+      
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href=" /#experience ">Experience</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+  
+    
+  
+    
+  
+  <li class="breadcrumb-item">
+    <a href="https://ybhan.github.io/">Home</a>
+  </li>
+
+  
+  <li class="breadcrumb-item">
+    <a href="https://ybhan.github.io/projects/">Projects</a>
+  </li>
+
+  
+  <li class="breadcrumb-item active">
+    <a href="https://ybhan.github.io/projects/bearmaps/">Bear Maps</a>
+  </li>
+
+  </ol>
+</nav>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-1"><span class="text-primary">Bear Maps</span></h2>
+    <div class="mb-3">
+      
+        <img class="my-0" src="/img/bearmaps.png" style="max-height:600px; max-width:600px; width:100%">
+      
+    </div>
+    <p>This is a fast and interactive map web app for Berkeley, CA. Features include rastering, labeling, auto-completion and navigation.</p>
+<ul>
+<li>Location nodes are stored in a <strong>K-D Tree</strong> to quickly find their nearest street point.</li>
+<li>Auto-completion of the search field is supported by a prefix <strong>Trie</strong> of all the location names.</li>
+<li>Navigation depends on <strong>A* search</strong> using a binary <strong>Heap</strong> as Priority Queue.</li>
+<li>Route directions are computed from relative bearing based on haversine distance.</li>
+</ul>
+<p>All the data structures and algorithms mentioned above are implemented from scratch in <strong>Java</strong>. Appropriate object-oriented designs significantly accelerate the program. The front end is also improved using jQuery, HTML and CSS. Use <strong>Maven</strong> to build and manage the project. Deployed on Heroku.</p>
+
+    
+      <p class="mb-2">Website: <a href="https://bearmaps1.herokuapp.com/">https://bearmaps1.herokuapp.com/</a></p>
+    
+    
+      <p class="mb-3">Source Code: <a href="https://github.com/ybhan/BearMaps">https://github.com/ybhan/BearMaps</a></p>
+    
+    <ul class="tags">
+  
+    <li><a class="tag" href='/tags/java'>Java</a></li>
+  
+    <li><a class="tag" href='/tags/junit'>JUnit</a></li>
+  
+    <li><a class="tag" href='/tags/maven'>Maven</a></li>
+  
+    <li><a class="tag" href='/tags/jquery'>jQuery</a></li>
+  
+    <li><a class="tag" href='/tags/web-app'>Web App</a></li>
+  
+</ul>
+  </div>
+</section>
+
+  </div>
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+
+  
+
+  
+</body>
+</html>
