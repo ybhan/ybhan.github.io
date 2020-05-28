@@ -1,0 +1,65 @@
+[
+  {
+    "grouping": "Familiar With",
+    "skills": [
+      "Java",
+      "Python",
+      {
+        "name": "MATLAB",
+        "icon": "fas fa-calculator"
+      },
+      "Git",
+      {
+        "name": "Bash",
+        "icon": "terminal"
+      },
+      {
+        "name": "HTML",
+        "icon": "html5"
+      },
+      "JavaScript",
+      {
+        "name": "SQL",
+        "icon": "postgresql"
+      },
+      "Heroku",
+      {
+        "name": "Maven",
+        "icon": "fab fa-maxcdn"
+      },
+      {
+        "name": "LaTeX",
+        "icon": "far fa-file-alt"
+      }
+    ]
+  },
+  {
+    "grouping": "Basic Knowledge",
+    "skills": [
+      {
+        "name": "Node.js",
+        "icon": "nodejs_small"
+      },
+      {
+        "name": "Vue",
+        "icon": "fab fa-vuejs"
+      },
+      "React",
+      {
+        "name": "CSS",
+        "icon": "css3"
+      },
+      "Bootstrap",
+      "jQuery",
+      {
+        "name": "C",
+        "icon": "fab fa-cuttlefish"
+      },
+      {
+        "name": "R",
+        "icon": "fab fa-r-project"
+      },
+      "Firebase"
+    ]
+  }
+]

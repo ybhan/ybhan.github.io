@@ -1,0 +1,10 @@
+[
+    {
+        "role": "Python Programmer",
+        "company": "Getti Tech",
+        "link": "https://www.getti.cn/",
+        "location": "Shanghai, China",
+        "range": "June 2019",
+        "summary": "- Use Jupyter Notebook to write hundreds of lines of Python codes.\n- Significant use of spaCy, an open-source NLP software library, for English grammar detection.\n- Provide syntactic analysis logic for tens of grammatical structures such as grammatical particles, adverbial clauses."
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "school": "[University of California, Irvine](https://uci.edu/)",
+        "degree": "Master of Computer Science",
+        "notes": "GPA: 3.9/4.0",
+        "range": "2019 - 2020",
+        "courses": "Computer Architecture, Operating Systems, Computer Network, Computer Security, Internet of Things, Parallel and Distributed Computing."
+    },
+    {
+        "school": "[Fudan University](https://www.fudan.edu.cn/en/)",
+        "degree": "B.S. in Mathematics (Data Science)",
+        "notes": "Undergraduate Scholarship, STEM Scholarship",
+        "range": "2015 - 2019",
+        "courses": "Real & Complex Analysis, Linear & Abstract Algebra, Topology, Analytic Geometry, Differential Equations, Probability Theory, Statistical Inference, Computational Statistics, Machine Learning, Financial Engineering."
+    },
+    {
+        "school": "[Australian National University](https://www.anu.edu.au/)",
+        "degree": "Exchange Semester in Engineering and Computer Science",
+        "notes": "High Distinction Academic Grading",
+        "range": "Feb - June 2018",
+        "courses": "Artificial Intelligence, Computer Vision, Data Mining, Bio-inspired Computing"
+    }
+]

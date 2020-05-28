@@ -1,0 +1,23 @@
+<h3 class="mb-3 d-flex flex-row" id="pjsum">
+  <a href="{{ .Permalink }}" class="mr-3">{{ .Title }}</a>
+  <span>
+    {{ with .Params.deploy }}
+      <a href="{{ . }}"><i class="fas fa-link" data-toggle="tooltip" title="demo"></i></a>
+    {{ end }}
+    {{ with .Params.link }}
+      <a href="{{ . }}"><i class="fab fa-github" data-toggle="tooltip" title="source code"></i></a>
+    {{ end }}
+  </span>
+</h3>
+<div class="resume-item d-flex flex-column flex-md-row mb-3">
+  <div class="resume-content" style="width:200px !important;">
+    {{ with .Params.imageSummary }}
+      <img src="{{ . }}" style="max-height:150px; max-width:150px;">
+    {{ end }}
+  </div>
+  <div class="resume-date ml-md-3">
+    <p>{{ .Description | safeHTML }}</p>
+    <p><a href="{{ .Permalink }}">Read more...</a></p>
+  </div>
+</div>
+<div>{{ partial "techtags" . }}</div>

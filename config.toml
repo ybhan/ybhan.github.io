@@ -1,0 +1,30 @@
+title = "Yuanbo Han"
+baseURL = "https://ybhan.github.io/"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+
+[params]
+firstName = "Yuanbo"
+lastName = "Han"
+address = "Irvine, CA"
+email = "im.ybhan@gmail.com"
+phone = "1-714-721-7506"
+profileImage = "/img/me.jpeg"
+showQR = true
+showEducation = true
+showSkills = true
+showProjects = true
+showExperience = true
+
+[[params.handles]]
+link = "https://github.com/ybhan/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/ybhan/"
+name = "LinkedIn"
+
+[taxonomies]
+tag = "tags"

@@ -1,0 +1,28 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+  <div class="my-auto" id="skills-content">
+    <h2 class="mb-5 text-center">Skills</h2>
+    {{ range $.Site.Data.skills }}
+      <div class="subheading mb-2">{{ .grouping }}</div>
+      <ul>
+        {{ range .skills }}
+          {{ if isset . "name" }}
+            {{ $skillicon := cond (in $.Site.Data.devicons (lower .icon)) (add "devicons devicons-" (lower .icon)) (lower .icon) }}
+            <li class="list-inline-item">
+              <i class="{{ $skillicon }}"></i>
+              {{if isset . "link"}}
+                <a href="{{ .link }}">{{ .name }}</a>
+              {{ else }}
+                {{ .name }}
+              {{ end }}
+            </li>
+          {{ else }}
+            <li class="list-inline-item">
+              <i class='devicons devicons-{{ cond (in $.Site.Data.devicons (lower .)) (lower .) "code" }}'></i>
+              {{ . }}
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</section>
